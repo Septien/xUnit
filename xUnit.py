@@ -1,3 +1,12 @@
+"""
+A basic implementation of the xUnit testing framework in Python.
+Based on the book:
+    Test-Driven Develoopment By Example.
+    Kent Beck.
+    Addison-Wesley.
+
+"""
+
 class TestSuite:
     def __init__(self):
         self.tests = []
